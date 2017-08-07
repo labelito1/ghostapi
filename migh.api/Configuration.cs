@@ -25,6 +25,7 @@ namespace migh.api
         public List<ReplaceText> GitHubFile_TextToReplace_HTML_List = new List<ReplaceText>();
         public string AudioFileURLFormat { get; set; }
         public string AlbumCoverImageFileURLFormat { get; set; }
+        public string ArtistImageFileURLFormat { get; set; }
 
         //public static void Save()
         //{

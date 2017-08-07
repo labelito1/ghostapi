@@ -11,9 +11,15 @@ namespace migh.api
         public int id { get; set; }
         public int album_id { get; set; }
         public int artist_id { get; set; }
+        public string JoinedPerformers { get; set; }
         public string name { get; set; }
         public string file_name { get; set; }
         public string url_name { get; set; }
+        public TimeSpan duration { get; set; }
+        public uint Track { get; set; }
+        public uint TrackCount { get; set; }
+        public uint Disc { get; set; }
+        public uint DiscCount { get; set; }
 
         public override string ToString()
         {
