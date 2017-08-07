@@ -1,0 +1,7 @@
+C:\migh.api\migh.api\bin\Release\migh.api.dll
+C:\migh.api\migh.api\bin\Release\migh.api.pdb
+C:\migh.api\migh.api\bin\Release\JsonTools.dll
+C:\migh.api\migh.api\bin\Release\Newtonsoft.Json.dll
+C:\migh.api\migh.api\obj\Release\migh.api.csprojResolveAssemblyReference.cache
+C:\migh.api\migh.api\obj\Release\migh.api.dll
+C:\migh.api\migh.api\obj\Release\migh.api.pdb

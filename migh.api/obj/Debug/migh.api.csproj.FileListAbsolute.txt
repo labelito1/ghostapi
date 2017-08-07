@@ -1,0 +1,35 @@
+C:\Users\Edu\documents\visual studio 2012\Projects\migh.api\migh.api\bin\Debug\migh.api.dll
+C:\Users\Edu\documents\visual studio 2012\Projects\migh.api\migh.api\bin\Debug\migh.api.pdb
+C:\Users\Edu\documents\visual studio 2012\Projects\migh.api\migh.api\bin\Debug\JsonTools.dll
+C:\Users\Edu\documents\visual studio 2012\Projects\migh.api\migh.api\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Edu\documents\visual studio 2012\Projects\migh.api\migh.api\obj\Debug\migh.api.dll
+C:\Users\Edu\documents\visual studio 2012\Projects\migh.api\migh.api\obj\Debug\migh.api.pdb
+C:\Users\Edu\documents\visual studio 2012\Projects\migh.api\migh.api\obj\Debug\migh.api.csprojResolveAssemblyReference.cache
+C:\Users\Eduardo\Desktop\dlls\migh.api\migh.api\bin\Debug\migh.api.dll
+C:\Users\Eduardo\Desktop\dlls\migh.api\migh.api\bin\Debug\migh.api.pdb
+C:\Users\Eduardo\Desktop\dlls\migh.api\migh.api\bin\Debug\JsonTools.dll
+C:\Users\Eduardo\Desktop\dlls\migh.api\migh.api\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Eduardo\Desktop\dlls\migh.api\migh.api\obj\Debug\migh.api.csprojResolveAssemblyReference.cache
+C:\Users\Eduardo\Desktop\dlls\migh.api\migh.api\obj\Debug\migh.api.dll
+C:\Users\Eduardo\Desktop\dlls\migh.api\migh.api\obj\Debug\migh.api.pdb
+C:\Users\Edu\Desktop\migh.api\migh.api\bin\Debug\migh.api.dll
+C:\Users\Edu\Desktop\migh.api\migh.api\bin\Debug\migh.api.pdb
+C:\Users\Edu\Desktop\migh.api\migh.api\bin\Debug\JsonTools.dll
+C:\Users\Edu\Desktop\migh.api\migh.api\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Edu\Desktop\migh.api\migh.api\obj\Debug\migh.api.dll
+C:\Users\Edu\Desktop\migh.api\migh.api\obj\Debug\migh.api.pdb
+C:\Users\Edu\Desktop\migh.api\migh.api\obj\Debug\migh.api.csprojResolveAssemblyReference.cache
+C:\Users\Dark\Documents\migh\migh.api\migh.api\obj\Debug\migh.api.csprojResolveAssemblyReference.cache
+C:\Users\Dark\Documents\migh\migh.api\migh.api\obj\Debug\migh.api.dll
+C:\Users\Dark\Documents\migh\migh.api\migh.api\obj\Debug\migh.api.pdb
+C:\Users\Dark\Documents\migh\migh.api\migh.api\bin\Debug\migh.api.dll
+C:\Users\Dark\Documents\migh\migh.api\migh.api\bin\Debug\migh.api.pdb
+C:\Users\Dark\Documents\migh\migh.api\migh.api\bin\Debug\JsonTools.dll
+C:\Users\Dark\Documents\migh\migh.api\migh.api\bin\Debug\Newtonsoft.Json.dll
+C:\migh.api\migh.api\bin\Debug\migh.api.dll
+C:\migh.api\migh.api\bin\Debug\migh.api.pdb
+C:\migh.api\migh.api\bin\Debug\JsonTools.dll
+C:\migh.api\migh.api\bin\Debug\Newtonsoft.Json.dll
+C:\migh.api\migh.api\obj\Debug\migh.api.csprojResolveAssemblyReference.cache
+C:\migh.api\migh.api\obj\Debug\migh.api.dll
+C:\migh.api\migh.api\obj\Debug\migh.api.pdb
