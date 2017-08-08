@@ -47,15 +47,15 @@ namespace migh.api
         #region Convert to GitHub file
         public static string ConvertToGitHubFile(string s, List<ReplaceText> GitHubFile_TextToReplace_List)
         {
-            if(s != null)
+            if (s != null)
             {
                 string bs = " ";
-                for(int i = 0; i < 5; i++)
+                for (int i = 0; i < 5; i++)
                 {
                     bs += " ";
                     s = s.Replace(bs, " ");
                 }
-                foreach(ReplaceText t in GitHubFile_TextToReplace_List)
+                foreach (ReplaceText t in GitHubFile_TextToReplace_List)
                 {
                     s = s.Replace(t.OriginalText, t.NewText);
                 }
@@ -94,7 +94,7 @@ namespace migh.api
         #region Download image
         public static Image DownloadImage(string url)
         {
-            byte[] data; 
+            byte[] data;
             using (WebClient wc = new WebClient())
             {
                 data = wc.DownloadData(url);
@@ -108,6 +108,12 @@ namespace migh.api
         }
         #endregion
 
+        public static string ConvertToFileNameLower(string input)
+        {
+            input = input.ToLower();
+            input = input.Replace("\"", "_");
+            return Regex.Replace(input, @"\\+|\s+|\/+|\:+|\*+|\?+|\<+|\>+|\|+", "_");
+        }
         #region Encode/decode
         public static string ghostEncodeLower(string input)
         {

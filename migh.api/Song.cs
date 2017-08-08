@@ -140,5 +140,22 @@ namespace migh.api
             return false;
         }
         #endregion
+
+        public static string getFileFormat(Song song)
+        {
+            string tn = "";
+            if (song.Track > 0)
+            {
+                if (song.Track < 10)
+                {
+                    tn = "0" + song.Track;
+                }
+                else
+                {
+                    tn = song.Track.ToString();
+                }
+            }
+            return tn + "-" + Tools.ConvertToGitHubFolder(song.name) + ".gaf";
+        }
     }
 }
