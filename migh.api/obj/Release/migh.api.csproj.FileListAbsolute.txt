@@ -9,5 +9,6 @@ C:\GitHub\ghostapi\migh.api\bin\Release\migh.api.dll
 C:\GitHub\ghostapi\migh.api\bin\Release\migh.api.pdb
 C:\GitHub\ghostapi\migh.api\bin\Release\JsonTools.dll
 C:\GitHub\ghostapi\migh.api\bin\Release\Newtonsoft.Json.dll
+C:\GitHub\ghostapi\migh.api\obj\Release\migh.api.csprojResolveAssemblyReference.cache
 C:\GitHub\ghostapi\migh.api\obj\Release\migh.api.dll
 C:\GitHub\ghostapi\migh.api\obj\Release\migh.api.pdb

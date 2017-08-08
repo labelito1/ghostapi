@@ -37,6 +37,7 @@ namespace migh.api
         #region Convert to GitHub folder
         public static string ConvertToGitHubFolder(string str)
         {
+            str = str.ToLower();
             str = Regex.Replace(str, @"[^A-Za-z0-9+÷]+", "-");
             str = str.Trim('-');
             return str;
@@ -108,6 +109,28 @@ namespace migh.api
         #endregion
 
         #region Encode/decode
+        public static string ghostEncodeLower(string input)
+        {
+            input = input.ToLower();
+            Byte[] stringBytes = Encoding.Unicode.GetBytes(input);
+            StringBuilder sbBytes = new StringBuilder(stringBytes.Length * 2);
+            foreach (byte b in stringBytes)
+            {
+                sbBytes.AppendFormat("{0:X2}", b);
+            }
+            return sbBytes.ToString();
+        }
+        public static string ghostDecodeLower(string input)
+        {
+            input = input.ToLower();
+            int numberChars = input.Length;
+            byte[] bytes = new byte[numberChars / 2];
+            for (int i = 0; i < numberChars; i += 2)
+            {
+                bytes[i / 2] = Convert.ToByte(input.Substring(i, 2), 16);
+            }
+            return Encoding.Unicode.GetString(bytes);
+        }
         public static string EncodeStringToBase64(string stringToEncode)
         {
             return Convert.ToBase64String(Encoding.UTF8.GetBytes(stringToEncode));
