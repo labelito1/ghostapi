@@ -155,7 +155,7 @@ namespace migh.api
                     tn = song.Track.ToString();
                 }
             }
-            return tn + "-" + Tools.ConvertToGitHubFolder(song.name) + ".gaf";
+            return tn + "-" + Tools.ConvertToGitHubFolder(song.name);
         }
     }
 }
