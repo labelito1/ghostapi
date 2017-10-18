@@ -40,6 +40,8 @@ namespace migh.api
             str = str.ToLower();
             str = Regex.Replace(str, @"[^A-Za-z0-9+÷]+", "-");
             str = str.Trim('-');
+            str = str.Replace("+", "");
+            str = str.Replace("--", "-");
             return str;
         }
         #endregion
